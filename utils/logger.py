@@ -1,0 +1,2 @@
+"""Module for logger functionality."""
+
