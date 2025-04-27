@@ -1,0 +1,15 @@
+"""
+-------------------------------------------------------
+[Brief description of what the method does]
+[Additional details or notes]
+Use: [calling example showing typical usage]
+-------------------------------------------------------
+[Parameters section if needed - otherwise omit]
+Parameters:
+    [param1] - [description] ([type[, constraints]])
+    [param2] - [description] ([type[, constraints]])
+    ...
+Returns:
+    [return_name] - [description] ([type])
+-------------------------------------------------------
+"""
