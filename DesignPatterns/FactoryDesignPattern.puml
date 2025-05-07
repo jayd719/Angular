@@ -1,0 +1,41 @@
+@startuml FactoryDesign
+allowmixing
+
+title Factory Design Pattern
+
+
+interface Pizza {
+    +prepare(): object
+}
+
+class CheesePizza {
+    +prepare(): object
+}
+
+class PepperoniPizza{
+    +prepare(): object
+}
+
+class VeggiePizza{
+    +prepare(): object
+}
+
+Pizza <|.- CheesePizza : implements
+Pizza <|.-- PepperoniPizza : implements
+Pizza <|.- VeggiePizza : implements
+
+class PizzaFactory {
++createPizza(type: String): Pizza
+}
+
+PizzaFactory --> Pizza : creates
+
+
+
+
+
+
+
+
+
+@enduml
